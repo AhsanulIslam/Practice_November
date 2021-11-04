@@ -144,3 +144,7 @@ table.tab td{
   .tab tr:hover {
       background-color: #ddd;
     }
+
+    .float{
+        float: right;
+    }
