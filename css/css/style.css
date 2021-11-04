@@ -104,3 +104,15 @@ a.one:hover{
 a.one:active {
     color: blue;
   }
+
+  ul.a{
+      list-style-type: circle;
+  }
+
+  ul.b{
+    list-style-type: square;
+}
+
+ul.c{
+    list-style-type: upper-alpha;
+}
