@@ -14,11 +14,11 @@ body{
 /* div{
     width: 100%;
     height: 300px;
-    background-image: url("../image/back.jpg");
+    background-image: url("../image/back.jpg"); */
     /* background-attachment: fixed; */
     /* background-attachment: scroll;
     background-positION: center; */
-/* } */ 
+ /* }  */
 
 .non{
     width: 100px;
@@ -40,13 +40,13 @@ body{
     margin: 40px;
     /* padding: 20px 10px; */
 }
-p{
+ /* p{
     border-style:double solid ;
     border-width: 10px 30px;
     text-indent: 50px;
   text-align: justify;
   letter-spacing: 3px;
-}
+}  */
 
 h2{
     color: blue;
@@ -82,10 +82,10 @@ h3{
     /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
 }
 
-p.font{
+/* p.font{
     font-family: Copperplate, Papyrus, fantasy;
     /* font-family: "Sofia", sans-serif; */
-}
+/* } */
 a.one{
     font-size: 60PX;
     border:rgb(255, 217, 0) solid;
@@ -200,4 +200,28 @@ table.tab td{
   50%  {background-color:blue; left:200px; top:200px;}
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
+}
+
+div.psudo > p{  /*+ or ~ oposite*/
+    color: rgb(243, 207, 0);
+}
+
+div.psud :nth-child(2) {
+    background-color: darkblue;
+}
+
+div.psud :last-child {
+    color: darkred;
+}
+
+div.psud :first-child {
+    color: rgb(0, 139, 12);
+}
+
+div.psud::first-letter{
+    font-size: 50px;
+}
+
+div.psud::before{
+    content: "helllo";
 }
